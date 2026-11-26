@@ -69,7 +69,7 @@ jobs:
     #Use uvx to run isort got import sorting
     - name: sort import with isort
       run: |
-        uxv isort .
+        uvx isort .
 
     #Use uvx to run ty for type check
     - name: Type check with ty
